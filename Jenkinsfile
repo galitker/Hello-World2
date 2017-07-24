@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'dskjfdlj'
-    }
-    
-  }
+  agent none
   stages {
     stage('cc') {
       steps {
